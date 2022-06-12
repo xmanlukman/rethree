@@ -1,0 +1,151 @@
+/* Header */
+#header {
+  background-image: url(/assets/img/bc_header.png);
+  width: 100%;
+  height: 140vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.banner .Btext {
+  transform: translateY(100px);
+  width: 40%;
+}
+.banner .heroImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.banner .heroImg img {
+  width: 100%;
+}
+
+/* features */
+.features {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.features .boxContainer {
+  background-color: #00b103;
+  display: flex;
+  width: 100%;
+  padding: 60px;
+  border-radius: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+.features .boxContainer .box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 300px;
+  height: 300px;
+  background-color: #fff;
+  border: 5px solid #84daffa2;
+  border-radius: 10px;
+}
+.features .boxContainer .box img {
+  width: 100px;
+  transform: translateY(80px);
+  transition: 1s;
+}
+.features .boxContainer .box .heading3 {
+  transition: 1s;
+  transform: translateY(80px);
+}
+.features .boxContainer .box p {
+  transform: translateY(150px);
+  opacity: 0;
+  font-size: 14px;
+  text-align: justify;
+  transition: 1s;
+}
+.features .boxContainer .box:hover p {
+  opacity: 1;
+  transform: translateY(-30px);
+}
+.features .boxContainer .box:hover .heading3 {
+  transform: translateY(-40px);
+}
+.features .boxContainer .box:hover img {
+  transform: translateY(-50px);
+}
+
+/* testi */
+.testi {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 140vh;
+}
+.testi .testiBox{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 100px;
+  margin-bottom: 100px;
+  padding: 4% 15%;
+}
+.testi .testiBox .boxTesti{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 5px double #00b103;
+  border-radius: 10px 40px;
+  padding: 20px;
+  margin-right: 50px;
+  width: 300px;
+  height: 400px;
+}
+.testi .testiBox .boxTesti img{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+}
+
+/* data */
+.data {
+  background-image: url(/assets/img/bc_data.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.data .box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(152.97deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
+  backdrop-filter: blur(42px);
+  border-radius: 16px;
+  width: 300px;
+  height: 400px;
+  padding: 20px;
+  color: #fff;
+  margin-right: 30px;
+}
+.data .box img {
+  width: 140px;
+}
+.data .box p{
+    text-align: center;
+}
+
+

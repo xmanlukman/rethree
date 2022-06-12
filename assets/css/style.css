@@ -1,0 +1,218 @@
+/* about */
+#about {
+  background-image: url(/assets/img/bc_about.png);
+  background-position: center;
+  background-size: cover;
+  height: 150vh;
+}
+.banner {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.banner .Btext {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+}
+.banner .Btext .subheading1 {
+  text-align: justify;
+}
+#about .heroImg {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#about .heroImg img {
+  width: 100%;
+}
+
+.team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: #00b103;
+}
+.team .boxContainer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  align-content: center;
+  justify-items: center;
+}
+.team .boxContainer .box {
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.team .boxContainer .box:hover {
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+.team .boxContainer .box img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+/* Promotion */
+#fitur-1 {
+  background-color: #00b103;
+}
+.promo {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.promo .sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  background-color: #a0f5f7;
+  border-radius: 20px;
+  padding: 40px 20px;
+  height: max-content;
+}
+.promo .sidebar form {
+  display: flex;
+  margin: 30px 0px;
+}
+.promo .sidebar form input {
+  padding: 10px 15px;
+  border-radius: 0px 10px;
+  border: 0px;
+  margin-right: 10px;
+}
+.promo .sidebar form button {
+  padding: 5px 10px;
+  background-color: #00b103;
+  color: #fff;
+  border-radius: 0px 10px;
+}
+.promo .sidebar form button:hover {
+  cursor: pointer;
+}
+
+.promo .sidebar ul {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 10px;
+  justify-items: center;
+  align-content: center;
+  margin-top: 20px;
+}
+.promo .sidebar ul li {
+  list-style: none;
+  padding: 10px 20px;
+  width: 120px;
+}
+.promo .sidebar ul li.active {
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+.promo .sidebar ul li:hover {
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+.promo .sidebar ul li a {
+  color: #000;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.promo .content {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.promo .content .box {
+  width: 100%;
+  background-color: #a0f5f7;
+  display: flex;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+.promo .content .box img {
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+}
+.promo .content .box .text .diskon {
+  display: flex;
+  margin-bottom: 10px;
+}
+.promo .content .box .text .potongan {
+  margin-right: 20px;
+  color: red;
+  text-decoration: line-through;
+}
+.promo .content .box .text .des {
+  font-size: 14px;
+  background-color: #fff;
+  padding: 10px;
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 0px 10px;
+  margin-bottom: 15px;
+}
+
+/* shop */
+.points{
+    background-color: #00b103;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+.points img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.content .boxContainer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  margin-top: 20px;
+  gap: 20px;
+}
+.content .boxContainer .boxShop {
+  width: 200px;
+  background-color: #a0f5f7;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0px 20px;
+}
+.content .boxContainer .boxShop img {
+  width: 100px;
+  height: 100px;
+}
+.content .boxContainer .boxShop .heading4 {
+  font-weight: bold;
+}
+.content .boxContainer .boxShop .jumlah {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0px;
+}
+.content .boxContainer .boxShop .poin {
+  font-weight: 600;
+  background-color: #fff;
+  padding: 5px 20px;
+  border-radius: 0px 10px;
+}
